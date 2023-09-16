@@ -18,7 +18,7 @@ if(isset($uname) || isset($email) || isset($upswd1) || isset($upswd2)){
 
             (mysqli_connect_error())
             {
-                die('connect error('.mysqli_connect_errno().')'.mysqli_connect-error());
+                die('connect error('.mysqli_connect_errno().')'.mysqli_connect_error());
             }
         
         else{
